@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameTop - Digital Gaming Store</title>
@@ -13,13 +11,7 @@
         }
         .game-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        }
-        .nav-link {
-            position: relative;
-        }
-        .nav-link::after {
-            content: '';
+            box-shadow: 0 10px 25px rgba(0, 0,
             position: absolute;
             width: 0;
             height: 2px;
@@ -33,17 +25,7 @@
         }
         @keyframes pulse {
             0%, 100% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0.5;
-            }
-        }
-        .animate-pulse {
-            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-    </style>
-</head>
+                o
 <body class="bg-gray-100 font-sans">
     <!-- Header/Navigation -->
     <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg sticky top-0 z-50">
@@ -128,104 +110,7 @@
                 </div>
 
                 <!-- Other Game Card -->
-                <div class="game-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                    <div class="h-48 bg-purple-600 flex items-center justify-center">
-                        <i class="fas fa-gamepad text-white text-8xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-gray-800">More Games</h3>
-                        <p class="text-gray-600 mb-4">We offer top-ups for various popular mobile and PC games.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-blue-600 font-bold">Various Prices</span>
-                            <a href="https://wa.me/212608951342" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 flex items-center">
-                                <i class="fab fa-whatsapp mr-2"></i> Inquire
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- YouTube Products Section -->
-    <section id="youtube" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">YouTube Products</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- YouTube Premium -->
-                <div class="game-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                    <div class="h-48 bg-red-600 flex items-center justify-center">
-                        <i class="fab fa-youtube text-white text-8xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-gray-800">YouTube Premium</h3>
-                        <p class="text-gray-600 mb-4">Get ad-free videos, background play, and YouTube Music Premium.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-blue-600 font-bold">From $10.00</span>
-                            <a href="https://wa.me/212608951342" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 flex items-center">
-                                <i class="fab fa-whatsapp mr-2"></i> Buy Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- YouTube Gift Card -->
-                <div class="game-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                    <div class="h-48 bg-red-700 flex items-center justify-center">
-                        <i class="fas fa-gift text-white text-8xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-gray-800">YouTube Gift Cards</h3>
-                        <p class="text-gray-600 mb-4">Redeem for YouTube Premium, YouTube Music, or Super Chat.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-blue-600 font-bold">From $10.00</span>
-                            <a href="https://wa.me/212608951342" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 flex items-center">
-                                <i class="fab fa-whatsapp mr-2"></i> Buy Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- YouTube Super Chat -->
-                <div class="game-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200">
-                    <div class="h-48 bg-red-800 flex items-center justify-center">
-                        <i class="fas fa-comment-dollar text-white text-8xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-gray-800">Super Chat Credits</h3>
-                        <p class="text-gray-600 mb-4">Stand out in live chats and support your favorite creators.</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-blue-600 font-bold">From $5.00</span>
-                            <a href="https://wa.me/212608951342" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 flex items-center">
-                                <i class="fab fa-whatsapp mr-2"></i> Buy Now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Support Section -->
-    <section id="support" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Contact Support</h2>
-            
-            <div class="max-w-4xl mx-auto bg-gray-100 rounded-xl p-8 shadow-lg">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-xl font-bold mb-4 text-gray-800">Get Help</h3>
-                        <p class="text-gray-600 mb-6">Our support team is available to help you with any questions or issues you may have regarding your purchases.</p>
-                        
-                        <div class="space-y-4">
-                            <div class="flex items-start">
-                                <i class="fas fa-phone-alt text-blue-600 mt-1 mr-3"></i>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Phone Support</h4>
-                                    <p class="text-gray-600">+212 608-951342</p>
-                                </div>
-                            </div>
+                <div class="game-card bg-white rounded-xl                            </div>
                             
                             <div class="flex items-start">
                                 <i class="fas fa-envelope text-blue-600 mt-1 mr-3"></i>
@@ -263,19 +148,7 @@
                                 <h4 class="font-bold text-gray-800">Is my payment information secure?</h4>
                                 <p class="text-gray-600 mt-1">Yes, we use secure payment gateways and never store your payment information on our servers.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/212608951342" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-xl hover:bg-green-600 transition duration-300 z-50">
-        <i class="fab fa-whatsapp text-3xl"></i>
-    </a>
-
-    <!-- Footer -->
+        
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -295,7 +168,6 @@
                         <li><a href="#support" class="text-gray-400 hover:text-white transition">Support</a></li>
                     </ul>
                 </div>
-                
                 <div>
                     <h4 class="font-bold text-lg mb-4">Popular Games</h4>
                     <ul class="space-y-2">
@@ -345,17 +217,4 @@
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    const mobileMenu = document.getElementById('mobileMenu');
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                    }
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+                        behavior: 
